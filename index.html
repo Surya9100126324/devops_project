@@ -72,5 +72,11 @@
       <button type="submit">Register</button>
     </form>
   </div>
+  <script>
+  document.querySelector("form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent page refresh
+    alert("🎉 Registration Successful! Thank you for joining.");
+  });
+</script>
 </body>
 </html>
